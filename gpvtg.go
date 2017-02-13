@@ -14,10 +14,10 @@ const (
 // http://aprs.gids.nl/nmea/#vtg
 type GPVTG struct {
 	Sentence
-	TrueTrack float64
-	MagneticTrack float64
+	TrueTrack        float64
+	MagneticTrack    float64
 	GroundSpeedKnots float64
-	GroundSpeedKPH float64
+	GroundSpeedKPH   float64
 }
 
 // NewGPVTG constructor

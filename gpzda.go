@@ -14,10 +14,10 @@ const (
 // http://aprs.gids.nl/nmea/#zda
 type GPZDA struct {
 	Sentence
-	Time string
-	Day int64
+	Time  string
+	Day   int64
 	Month int64
-	Year int64
+	Year  int64
 	// Local time zone offset from GMT, hours
 	OffsetHours int64
 	// Local time zone offset from GMT, minutes
